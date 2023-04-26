@@ -225,6 +225,32 @@ const defaultConfig = {
 				]
 			},
 			{
+			  title: "Science",
+			  color: "blue",
+			  links: [
+				  {
+					  name: "Sicpjs",
+					  url: "https://sourceacademy.org/sicpjs/foreword02",
+					  icon: "material-symbols:book"
+				  },
+				  {
+					  name: "Space",
+					  url: "fa6-solid:user-astronaut",
+					  icon: "mdi:reddit"
+				  },
+				  {
+					  name: "NASA",
+					  url: "https://blogs.nasa.gov/",
+					  icon: "simple-icons:nasa"
+				  },
+				  {
+					  name: "ESA",
+					  url: "https://blogs.esa.int/",
+					  icon: "mdi:black-mesa"
+				  }
+			  ]
+			},
+			{
 				title: "Subreddits",
 				color: "yellow",
 				links: [
