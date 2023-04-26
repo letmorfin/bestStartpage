@@ -1,5 +1,5 @@
 const defaultConfig = {
-	username: "Excalith",
+	username: "Indra",
 	theme: {
 		backgroundColor: "#121317",
 		windowColor: "#1e212b",
@@ -108,17 +108,16 @@ const defaultConfig = {
 			{
 				title: "General",
 				color: "green",
-				align: "left",
 				links: [
 					{
-						name: "Portfolio",
-						url: "https://cancellek.com",
+						name: "Deepl",
+						url: "https://www.deepl.com/translator#ru/en/",
 						icon: "mdi:web"
 					},
 					{
-						name: "Keybase",
-						url: "https://keybase.io/",
-						icon: "fa-brands:keybase"
+						name: "Music",
+						url: "https://free-mp3-download.net",
+						icon: "material-symbols:library-music"
 					},
 					{
 						name: "GPT",
@@ -129,13 +128,17 @@ const defaultConfig = {
 						name: "OCI",
 						url: "https://www.oracle.com/cloud/",
 						icon: "simple-icons:oracle"
+					},
+					{
+						name: "Youtube",
+						url: "https://www.youtube.com/",
+						icon: "mdi:youtube"
 					}
 				]
 			},
 			{
 				title: "Dev",
 				color: "magenta",
-				align: "left",
 				links: [
 					{
 						name: "GitHub",
@@ -156,13 +159,17 @@ const defaultConfig = {
 						name: "Stack Overflow",
 						url: "https://stackoverflow.com/",
 						icon: "mdi:stack-overflow"
+					},
+					{
+						name: "Mdn",
+						url: "https://developer.mozilla.org/en-US/",
+						icon: "mdi:mozilla-firefox"
 					}
 				]
 			},
 			{
 				title: "Social",
-				color: "violet",
-				align: "left",
+				color: "purple",
 				links: [
 					{
 						name: "Twitter",
@@ -170,14 +177,19 @@ const defaultConfig = {
 						icon: "mdi:twitter"
 					},
 					{
-						name: "Mastodon",
-						url: "https://mastodon.social/",
-						icon: "ri:mastodon-fill"
+						name: "Instagram",
+						url: "https://instagram.com",
+						icon: "basil:comment-solid"
 					},
 					{
 						name: "Reddit",
 						url: "https://reddit.com",
 						icon: "mdi:reddit"
+					},
+					{
+						name: "Mastodon",
+						url: "https://mastodon.social/",
+						icon: "ri:mastodon-fill"
 					},
 					{
 						name: "Polywork",
@@ -187,19 +199,18 @@ const defaultConfig = {
 				]
 			},
 			{
-				title: "Gaming",
+				title: "Interesting",
 				color: "cyan",
-				align: "left",
 				links: [
 					{
-						name: "Polygon",
-						url: "https://polygon.com",
-						icon: "uil:polygon"
+						name: "Tailwind",
+						url: "https://v2.tailwindcss.com/docs",
+						icon: "mdi:tailwind"
 					},
 					{
-						name: "IGN",
-						url: "https://ign.com",
-						icon: "mdi:currency-sign"
+						name: "Leetcode",
+						url: "https://leetcode.com",
+						icon: "simple-icons:leetcode"
 					},
 					{
 						name: "RPS",
@@ -214,56 +225,33 @@ const defaultConfig = {
 				]
 			},
 			{
-				title: "Science",
-				color: "blue",
-				align: "left",
+				title: "Subreddits",
+				color: "yellow",
 				links: [
 					{
-						name: "PopSci",
-						url: "https://popsci.com/",
-						icon: "material-symbols:science"
-					},
-					{
-						name: "Space",
-						url: "fa6-solid:user-astronaut",
+						name: "Firefoxcss",
+						url: "https://www.reddit.com/r/FirefoxCSS/",
 						icon: "mdi:reddit"
 					},
 					{
-						name: "NASA",
-						url: "https://blogs.nasa.gov/",
-						icon: "simple-icons:nasa"
+						name: "React",
+						url: "https://www.reddit.com/r/reactjs/",
+						icon: "mdi:reddit"
 					},
 					{
-						name: "ESA",
-						url: "https://blogs.esa.int/",
-						icon: "mdi:black-mesa"
-					}
-				]
-			},
-			{
-				title: "Tech",
-				color: "yellow",
-				align: "left",
-				links: [
-					{
-						name: "TechCrunch",
-						url: "https://techcrunch.com/",
-						icon: "game-icons:techno-heart"
+						name: "Unixporn",
+						url: "https://www.reddit.com/r/unixporn/",
+						icon: "mdi:reddit"
 					},
 					{
-						name: "Verge",
-						url: "https://www.theverge.com/",
-						icon: "arcticons:verge"
+						name: "Typescript",
+						url: "https://www.reddit.com/r/typescript/",
+						icon: "mdi:reddit"
 					},
 					{
-						name: "It's Foss",
-						url: "https://itsfoss.com/",
-						icon: "ri:mastodon-fill"
-					},
-					{
-						name: "9To5 Linux",
-						url: "https://9to5linux.com/",
-						icon: "uil:linux"
+						name: "Awesomewm",
+						url: "https://www.reddit.com/r/awesomewm/",
+						icon: "mdi:reddit"
 					}
 				]
 			}

@@ -31,6 +31,7 @@
 		"react-ace": "^10.1.0",
 		"react-device-detect": "^2.2.2",
 		"react-dom": "18.2.0",
-		"react-error-boundary": "^4.0.3"
+		"react-error-boundary": "^4.0.3",
+		"yarn": "^1.22.19"
 	}
 }
